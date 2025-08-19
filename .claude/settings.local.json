@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm search:*)",
+      "Bash(npm info:*)",
+      "Bash(npm install:*)",
+      "Bash(claude mcp:*)",
+      "Bash(npm config:*)",
+      "Bash(mcp-github:*)",
+      "Bash(claude --print --dangerously-skip-permissions \"Test my GitHub authentication by checking the rate limit.\")",
+      "mcp__github__create_repository"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
